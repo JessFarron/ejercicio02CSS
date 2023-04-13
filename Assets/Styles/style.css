@@ -1,0 +1,28 @@
+nav {
+    background-color: lightskyblue; text-align: center;
+}
+
+a{
+    text-align: center;
+}
+
+body{
+    background-color: cornsilk;
+}
+
+img{
+    margin:auto;
+    display: block;
+}
+h1{
+    text-align: center; font-family: sans-serif; 
+}
+h3 {
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+li {
+    text-align: center;
+}
