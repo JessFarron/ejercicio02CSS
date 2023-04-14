@@ -33,19 +33,49 @@ body{
     background-color:  #ffffff;
 }
 
-/*img{
-    margin:auto;
+/*Centramos las imagenes*/
+img{
     display: block;
-}*/
+    margin:auto; 
+    border-radius: 50px;
+    border: 1px solid;
+}
+ul{
+    background-color: #002b51;
+    height: 200px;
+    border-radius: 100px;
+}
+a{
+    color: white;
+    font-weight: bold;
+}
+/*Se le quitaron las viñetas a las listas y cambio tamaño deletra y tipo */
+li{
+    list-style-type: none;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: white;
+    position: relative;
+    top: 60px;
+}
+    
 h1{
     text-align: center; font-family: sans-serif; 
 }
 h3 {
     text-align: center;
+    font-size: 25px;
+    color: cornflowerblue;
+    font-weight: bold;
 }
 ul{
     text-align: center;
 }
 li {
     text-align: center;
+}
+.listado{
+    display: block;
+    margin: 0 auto;
 }
